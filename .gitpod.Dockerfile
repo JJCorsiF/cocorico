@@ -67,4 +67,4 @@ VOLUME /cocorico /data/db /var/lib/mysql
 
 EXPOSE 80 3306 27017
 
-ENTRYPOINT sh /entrypoint.sh
+# ENTRYPOINT sh /entrypoint.sh
