@@ -59,7 +59,7 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.8/main' >> /etc/apk/repositori
     && mkdir -p /data/db \
     && rm -rf /var/cache/apk/*
 
-ADD files /
+# ADD files /
 
 WORKDIR /cocorico
 
